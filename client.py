@@ -21,3 +21,7 @@ def send(msg):
 
 
 send("Hello World")
+send("Hello World")
+message = input("-> ")
+send(message)
+send(DISCONNECT_MESSAGE)
